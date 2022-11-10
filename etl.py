@@ -51,7 +51,7 @@ def process_reviews_file(cur, filepath):
 
     for i, row in reviews_data.iterrows():
         cur.execute(reviews_table_insert, row)
-
+qweqwe
     # insert review_authors record
     review_authors_data = df[ ['author.steamid', 'recommendationid', 'author.num_games_owned',
                                'author.num_reviews', 'author.playtime_forever', 'author.playtime_last_two_weeks',
